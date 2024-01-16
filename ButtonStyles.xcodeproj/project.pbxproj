@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		950E97B32B56938E004DCD24 /* CapsuleButton2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 950E97B22B56938E004DCD24 /* CapsuleButton2.swift */; };
+		9568BF192B55D47C005C97C7 /* ButtonStylesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568BF182B55D47C005C97C7 /* ButtonStylesApp.swift */; };
+		9568BF1D2B55D47E005C97C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9568BF1C2B55D47E005C97C7 /* Assets.xcassets */; };
+		9568BF202B55D47E005C97C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9568BF1F2B55D47E005C97C7 /* Preview Assets.xcassets */; };
+		9568BF292B55D573005C97C7 /* ButtonStylesPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568BF282B55D573005C97C7 /* ButtonStylesPreview.swift */; };
+		9568BF2D2B55D5F0005C97C7 /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568BF2C2B55D5F0005C97C7 /* BorderedButton.swift */; };
+		9568BF2F2B55D60A005C97C7 /* CircularBorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568BF2E2B55D60A005C97C7 /* CircularBorderedButton.swift */; };
+		9568BF312B55D621005C97C7 /* SimpleCurvedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568BF302B55D621005C97C7 /* SimpleCurvedButton.swift */; };
+		9568BF332B55D681005C97C7 /* CapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568BF322B55D681005C97C7 /* CapsuleButton.swift */; };
+		9568BF362B55D6CD005C97C7 /* CapsuleShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568BF352B55D6CD005C97C7 /* CapsuleShape.swift */; };
+		9568BF392B55D735005C97C7 /* CustomizedFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568BF382B55D735005C97C7 /* CustomizedFont.swift */; };
+		9568BF3B2B55D7F5005C97C7 /* SimpleBorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9568BF3A2B55D7F5005C97C7 /* SimpleBorderedButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		950E97B22B56938E004DCD24 /* CapsuleButton2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleButton2.swift; sourceTree = "<group>"; };
+		9568BF152B55D47C005C97C7 /* ButtonStyles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonStyles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9568BF182B55D47C005C97C7 /* ButtonStylesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylesApp.swift; sourceTree = "<group>"; };
+		9568BF1C2B55D47E005C97C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9568BF1F2B55D47E005C97C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9568BF282B55D573005C97C7 /* ButtonStylesPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStylesPreview.swift; sourceTree = "<group>"; };
+		9568BF2C2B55D5F0005C97C7 /* BorderedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
+		9568BF2E2B55D60A005C97C7 /* CircularBorderedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularBorderedButton.swift; sourceTree = "<group>"; };
+		9568BF302B55D621005C97C7 /* SimpleCurvedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCurvedButton.swift; sourceTree = "<group>"; };
+		9568BF322B55D681005C97C7 /* CapsuleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CapsuleButton.swift; sourceTree = "<group>"; };
+		9568BF352B55D6CD005C97C7 /* CapsuleShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleShape.swift; sourceTree = "<group>"; };
+		9568BF382B55D735005C97C7 /* CustomizedFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizedFont.swift; sourceTree = "<group>"; };
+		9568BF3A2B55D7F5005C97C7 /* SimpleBorderedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBorderedButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9568BF122B55D47C005C97C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9568BF0C2B55D47C005C97C7 = {
+			isa = PBXGroup;
+			children = (
+				9568BF172B55D47C005C97C7 /* ButtonStyles */,
+				9568BF162B55D47C005C97C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9568BF162B55D47C005C97C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9568BF152B55D47C005C97C7 /* ButtonStyles.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9568BF172B55D47C005C97C7 /* ButtonStyles */ = {
+			isa = PBXGroup;
+			children = (
+				9568BF1C2B55D47E005C97C7 /* Assets.xcassets */,
+				9568BF272B55D55E005C97C7 /* App */,
+				9568BF2A2B55D5E0005C97C7 /* Helper */,
+				9568BF262B55D4A3005C97C7 /* View */,
+				9568BF1E2B55D47E005C97C7 /* Preview Content */,
+			);
+			path = ButtonStyles;
+			sourceTree = "<group>";
+		};
+		9568BF1E2B55D47E005C97C7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9568BF1F2B55D47E005C97C7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9568BF262B55D4A3005C97C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9568BF282B55D573005C97C7 /* ButtonStylesPreview.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9568BF272B55D55E005C97C7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9568BF182B55D47C005C97C7 /* ButtonStylesApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9568BF2A2B55D5E0005C97C7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				9568BF372B55D716005C97C7 /* View Modifier */,
+				9568BF342B55D6B9005C97C7 /* Shape */,
+				9568BF2B2B55D5E6005C97C7 /* Style */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		9568BF2B2B55D5E6005C97C7 /* Style */ = {
+			isa = PBXGroup;
+			children = (
+				9568BF2C2B55D5F0005C97C7 /* BorderedButton.swift */,
+				9568BF322B55D681005C97C7 /* CapsuleButton.swift */,
+				950E97B22B56938E004DCD24 /* CapsuleButton2.swift */,
+				9568BF2E2B55D60A005C97C7 /* CircularBorderedButton.swift */,
+				9568BF3A2B55D7F5005C97C7 /* SimpleBorderedButton.swift */,
+				9568BF302B55D621005C97C7 /* SimpleCurvedButton.swift */,
+			);
+			path = Style;
+			sourceTree = "<group>";
+		};
+		9568BF342B55D6B9005C97C7 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				9568BF352B55D6CD005C97C7 /* CapsuleShape.swift */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
+		9568BF372B55D716005C97C7 /* View Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				9568BF382B55D735005C97C7 /* CustomizedFont.swift */,
+			);
+			path = "View Modifier";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9568BF142B55D47C005C97C7 /* ButtonStyles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9568BF232B55D47E005C97C7 /* Build configuration list for PBXNativeTarget "ButtonStyles" */;
+			buildPhases = (
+				9568BF112B55D47C005C97C7 /* Sources */,
+				9568BF122B55D47C005C97C7 /* Frameworks */,
+				9568BF132B55D47C005C97C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonStyles;
+			productName = ButtonStyles;
+			productReference = 9568BF152B55D47C005C97C7 /* ButtonStyles.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9568BF0D2B55D47C005C97C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9568BF142B55D47C005C97C7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 9568BF102B55D47C005C97C7 /* Build configuration list for PBXProject "ButtonStyles" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9568BF0C2B55D47C005C97C7;
+			productRefGroup = 9568BF162B55D47C005C97C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9568BF142B55D47C005C97C7 /* ButtonStyles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9568BF132B55D47C005C97C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9568BF202B55D47E005C97C7 /* Preview Assets.xcassets in Resources */,
+				9568BF1D2B55D47E005C97C7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9568BF112B55D47C005C97C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9568BF312B55D621005C97C7 /* SimpleCurvedButton.swift in Sources */,
+				9568BF332B55D681005C97C7 /* CapsuleButton.swift in Sources */,
+				9568BF362B55D6CD005C97C7 /* CapsuleShape.swift in Sources */,
+				9568BF292B55D573005C97C7 /* ButtonStylesPreview.swift in Sources */,
+				9568BF392B55D735005C97C7 /* CustomizedFont.swift in Sources */,
+				9568BF2D2B55D5F0005C97C7 /* BorderedButton.swift in Sources */,
+				950E97B32B56938E004DCD24 /* CapsuleButton2.swift in Sources */,
+				9568BF2F2B55D60A005C97C7 /* CircularBorderedButton.swift in Sources */,
+				9568BF192B55D47C005C97C7 /* ButtonStylesApp.swift in Sources */,
+				9568BF3B2B55D7F5005C97C7 /* SimpleBorderedButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9568BF212B55D47E005C97C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9568BF222B55D47E005C97C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9568BF242B55D47E005C97C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ButtonStyles/Preview Content\"";
+				DEVELOPMENT_TEAM = 2PPJGDM8G7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebco.ButtonStyles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9568BF252B55D47E005C97C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ButtonStyles/Preview Content\"";
+				DEVELOPMENT_TEAM = 2PPJGDM8G7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebco.ButtonStyles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9568BF102B55D47C005C97C7 /* Build configuration list for PBXProject "ButtonStyles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9568BF212B55D47E005C97C7 /* Debug */,
+				9568BF222B55D47E005C97C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9568BF232B55D47E005C97C7 /* Build configuration list for PBXNativeTarget "ButtonStyles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9568BF242B55D47E005C97C7 /* Debug */,
+				9568BF252B55D47E005C97C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9568BF0D2B55D47C005C97C7 /* Project object */;
+}
